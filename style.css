@@ -1,3 +1,65 @@
-.main-header {
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-header, .hero, footer {
     background-color: #1f2937;
+}
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight:800;
+}
+p, a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+button {
+    padding: 5px 20px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.hero button {
+    border: 1px solid #3882f6;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+.boxes img {
+    border-radius: 8px;
+    border: 2px solid #3882f6;
+}
+.box-text {
+    color: #1f2937;
+}
+.quote {
+    background-color: #e5e7eb;
+}
+.quote p {
+    color: #1f2937;
+}
+.source {
+    font-weight: bold;
+}
+.action {
+    background-color: #3882f6;
+}
+.action-text {
+    color: #f9faf8;
+}
+.action button {
+    border: 1px solid white;
+}
+.footer-text {
+    color: #f9faf8;
 }
